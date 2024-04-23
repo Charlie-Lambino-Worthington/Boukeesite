@@ -10,8 +10,6 @@
     text-align: center;
     font-weight: 500;
     padding-bottom: 100px;
-    margin-left: 25px;
-    padding-left: 25px;
  }
 .feedback {
     background-color: #9CA3DB;
@@ -19,6 +17,8 @@
     text-align: center;
     font-weight: 500;
     padding-bottom: 100px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 .about {
     background-color: #6E9075;
@@ -26,7 +26,8 @@
     text-align: justify;
     font-weight: 500;
     padding-bottom: 100px;
-    padding-left: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
     
     
 }
@@ -36,10 +37,12 @@
     text-align: justify;
     font-weight: 500;
     padding-bottom: 100px;
-    padding-left: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 /*about*/
+
 .bonding p,
 .bonding h2,
 .about p,

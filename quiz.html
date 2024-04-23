@@ -15,22 +15,40 @@
         <a href="quiz.html" class="active">Quiz</a>
         
     </nav>
-<!--radio-->
-    <div class="feedback">
+   
+        <!--div for radio button form-->
+    <section class="feedback">
         <br>
-         <form action=""  method="POST">
-          <header> <h2>What is Boukee's best feature?</h2> </header>
-          <label for="q1a1">Her floppy ears</label>
-          <input type="radio" id="q1a1"> </input>
-        <br>
-         <label for="q1a2">Her wiggly waggly tail</label>
-         <input type="radio" id="q1a2"> </input>
-        <br>
-         <label for="q1a3">Her stinky paws</label>
-         <input type="radio" id="q1a3"> </input>
-        <br>
-         <label for="q1a4">Her cute snozzel</label>
-         <input type="radio" id="q1a4"> </input>
-    </form>
+            <form id="form" action=""  method="POST">
+                <header> <h2>Boukee Quiz!</h2></header>
+                <section>    <h3>What is Boukee's best feature?</h3> 
+                <label for="q1a1">Her floppy ears</label>
+                <input type="radio" id="q1a1" value="Her floppy ears" name="feature"> 
+                <br>
+                <label for="q1a2">Her wiggly waggly tail</label>
+                <input type="radio" id="q1a2" name="feature" value="Her wiggly waggly tail"> 
+                 <br>
+                <label for="q1a3">Her stinky paws</label>
+                <input type="radio" id="q1a3" value="Her stinky paws" name="feature"> 
+                 <br>
+                 <label for="q1a4">Her cute snozzel</label>
+                 <input type="radio" id="q1a4" value="Her cute snozzel" name="feature"> 
+                 <br>
+            
+                                        <!--div for check box question-->
+                    <br>
+                     <h3> How would you spend your day with Boukee?</h3>
+                     <br>
+                    <label for="q2a1">Long walk in the park</label>                          
+                    <input type="checkbox" id="q2a1" name="activity" value="Long walk in the park">
+                      <br>
+                <label for="q2a2">Afternoon coffee at the local dog friendly cafe</label>                          <input type="checkbox" id="q2a2" name="activity" value="Snuggle at home">    
+                <br>
+                    <label for="q2a3">Snuggle at home</label>                          <input type="checkbox" id="q2a3" name="activity" value="Snuggle at home">    
+                <br>
+                <label for="q2a4">Playdate with her best friend Bengie</label>                          <input type="checkbox" id="q2a4" name="activity" value="Playdate with her best friend Bengie">    
+                <br>
+            </form>
+        </section>
 </body>
 </html>
