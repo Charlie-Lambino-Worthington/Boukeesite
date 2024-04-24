@@ -3,6 +3,115 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*basic style*/
+p, li, h2, h3 {
+  margin: 25px;
+}
+
+/* about image*/
+.bouks img{
+  max-width: 100vw;
+  }
+  .bouks {
+    background-color: #474954;
+  }
+  
+   /*colours*/
+   .intro {
+      background-color: #414288;
+      color: #FFF07C;
+      text-align: center;
+      font-weight: 500;
+      padding-bottom: 10px;
+      padding-top: 60px;
+   }
+  .feedback {
+      background-color: #9CA3DB;
+      color: #474954;
+      text-align: center;
+      font-weight: 500;
+      padding-bottom: 50px;
+      padding-top: 60px;
+      padding-left: 35px;
+      padding-right: 35px;
+  }
+  .about {
+      background-color: #6E9075;
+      color: #474954;
+      text-align: justify;
+      font-weight: 500;
+      padding-bottom: 40px;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-top: 60px;
+  
+  }
+  .bonding {
+      background-color: #474954;
+      color: #9CA3DB;
+      text-align: justify;
+      font-weight: 500;
+      padding-bottom: 100px;
+      padding-left: 35px;
+      padding-right: 35px;
+  }
+  
+  .gallery {
+    background-color: #FFF07C;
+    padding-top: 60px;
+  }
+  
+  .park {
+    background-color: #9CA3DB;
+    color: #474954;
+  }
+  /*about*/
+  
+  .bonding p,
+  .bonding h2,
+  .about p,
+  .about h2 {
+      text-align: center;
+  }
+  
+  #aboutpic {
+    max-width: 100%;
+  }
+  
+  .about li,
+  .about p,
+  .bonding li,
+  .bonding p {
+    font-size: larger;
+  }
+  
+  /*gallery*/
+  .container-gallery {display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    }
+    .item {
+        max-width: 33%;
+        padding: 10px;
+    }
+  
+    /*intro*/
+    .intro p {
+      font-size: large;
+    }
+  
+    /*circle image*/
+    #circle {
+      border-radius: 50%;
+      max-width: 25%;
+      max-height: 25%;
+    }
+
+
 
 /* Header */
 header {
@@ -70,7 +179,7 @@ min-height: 75px;
 
 .nav-toggle-label {
   font-size: 2rem;
-  color: #414288;
+  color: #FFF07C;
 }
 
 
@@ -113,74 +222,3 @@ min-height: 75px;
   }
 }
 
-/* about image*/
-.bouks img{
-max-width: 100vw;
-}
-.bouks {
-  background-color: #474954;
-}
-
- /*colours*/
- .intro {
-    background-color: #FFF07C;
-    color: #414288;
-    text-align: center;
-    font-weight: 500;
-    padding-bottom: 100px;
-
- }
-.feedback {
-    background-color: #9CA3DB;
-    color: #474954;
-    text-align: center;
-    font-weight: 500;
-    padding-bottom: 100px;
-    padding-left: 35px;
-    padding-right: 35px;
-}
-.about {
-    background-color: #6E9075;
-    color: #474954;
-    text-align: justify;
-    font-weight: 500;
-    padding-bottom: 100px;
-    padding-left: 35px;
-    padding-right: 35px;
-
-}
-.bonding {
-    background-color: #474954;
-    color: #9CA3DB;
-    text-align: justify;
-    font-weight: 500;
-    padding-bottom: 100px;
-    padding-left: 35px;
-    padding-right: 35px;
-}
-
-.gallery {
-  background-color: #9CA3DB;
-}
-
-/*about*/
-
-.bonding p,
-.bonding h2,
-.about p,
-.about h2 {
-    text-align: center;
-}
-
-
-/*gallery*/
-.container-gallery {display: flex;
-  width: 100vw;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: space-around;
-  }
-  .item {
-      max-width: 33%;
-      padding: 10px;
-  }
