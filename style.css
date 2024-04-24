@@ -182,6 +182,21 @@ min-height: 75px;
   color: #FFF07C;
 }
 
+/* Footer */
+#social-networks {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  background: #414288;
+}
+
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: #FFF07C;
+}
 
 
 /* Media query: tablets and larger (768px and up) */
