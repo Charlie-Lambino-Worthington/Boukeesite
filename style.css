@@ -6,7 +6,7 @@
 
 /* Header */
 header {
-  background-color: #6E9075;
+  background-color: #414288;
   padding: 0 1rem;
   position: fixed;
   z-index: 99;
@@ -26,7 +26,7 @@ h1 {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #414288;
+  color: #FFF07C;
 }
 
 #menu {
@@ -37,7 +37,7 @@ h1 {
 
 #menu > li {
   margin-bottom: 1em;
-  color: #414288;
+  color: #FFF07C;
 }
 
 .active {
@@ -47,7 +47,7 @@ h1 {
 /* Navbar styles with dropdown toggle */
 nav {
   position: absolute;
-  background-color: #6E9075;
+  background-color: #414288;
   width: 100%;
   left: 0;
   padding: 0 1rem;
@@ -159,6 +159,9 @@ max-width: 100vw;
     padding-right: 35px;
 }
 
+.gallery {
+  background-color: #9CA3DB;
+}
 
 /*about*/
 
