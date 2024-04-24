@@ -3,52 +3,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boukee's website</title>
+    <script src="https://kit.fontawesome.com/29ef0a5efd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <meta name="keywords" content="labrador, dog">
 </head>
 <body>
-    <nav class="navbar">
-        <a href="index.html" class="logo"> <h1>Boukee site</h1></a>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Labradors</a>
-        <a href="#"> Gallery</a>
-        <a href="quiz.html" class="active">Quiz</a>
-        
-    </nav>
-   
-        <!--div for radio button form-->
-    <section class="feedback">
-        <br>
-            <form id="form" action=""  method="POST">
-                <header> <h2>Boukee Quiz!</h2></header>
-                <section>    <h3>What is Boukee's best feature?</h3> 
-                <label for="q1a1">Her floppy ears</label>
-                <input type="radio" id="q1a1" value="Her floppy ears" name="feature"> 
-                <br>
-                <label for="q1a2">Her wiggly waggly tail</label>
-                <input type="radio" id="q1a2" name="feature" value="Her wiggly waggly tail"> 
-                 <br>
-                <label for="q1a3">Her stinky paws</label>
-                <input type="radio" id="q1a3" value="Her stinky paws" name="feature"> 
-                 <br>
-                 <label for="q1a4">Her cute snozzel</label>
-                 <input type="radio" id="q1a4" value="Her cute snozzel" name="feature"> 
-                 <br>
-            
-                                        <!--div for check box question-->
+    <!-- Header -->
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Boukee site!</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">X</label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="quiz.html" class="active">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+   <main>
+    <div class="gap"></div>
+            <!--div for radio button form-->
+        <section class="feedback">
+            <br>
+                <form id="form" action=""  method="POST">
+                    <header> <h2>Boukee Quiz!</h2></header>
+                    <section>    <h3>What is Boukee's best feature?</h3> 
+                    <label for="q1a1">Her floppy ears</label>
+                    <input type="radio" id="q1a1" value="Her floppy ears" name="feature"> 
                     <br>
-                     <h3> How would you spend your day with Boukee?</h3>
-                     <br>
-                    <label for="q2a1">Long walk in the park</label>                          
-                    <input type="checkbox" id="q2a1" name="activity" value="Long walk in the park">
-                      <br>
-                <label for="q2a2">Afternoon coffee at the local dog friendly cafe</label>                          <input type="checkbox" id="q2a2" name="activity" value="Snuggle at home">    
-                <br>
-                    <label for="q2a3">Snuggle at home</label>                          <input type="checkbox" id="q2a3" name="activity" value="Snuggle at home">    
-                <br>
-                <label for="q2a4">Playdate with her best friend Bengie</label>                          <input type="checkbox" id="q2a4" name="activity" value="Playdate with her best friend Bengie">    
-                <br>
-            </form>
-        </section>
+                    <label for="q1a2">Her wiggly waggly tail</label>
+                    <input type="radio" id="q1a2" name="feature" value="Her wiggly waggly tail"> 
+                    <br>
+                    <label for="q1a3">Her stinky paws</label>
+                    <input type="radio" id="q1a3" value="Her stinky paws" name="feature"> 
+                    <br>
+                    <label for="q1a4">Her cute snozzel</label>
+                    <input type="radio" id="q1a4" value="Her cute snozzel" name="feature"> 
+                    <br>
+                
+                                            <!--div for check box question-->
+                        <br>
+                        <h3> How would you spend your day with Boukee?</h3>
+                        <br>
+                        <label for="q2a1">Long walk in the park</label>                          
+                        <input type="checkbox" id="q2a1" name="activity" value="Long walk in the park">
+                        <br>
+                    <label for="q2a2">Afternoon coffee at the local dog friendly cafe</label>                          <input type="checkbox" id="q2a2" name="activity" value="Snuggle at home">    
+                    <br>
+                        <label for="q2a3">Snuggle at home</label>                          <input type="checkbox" id="q2a3" name="activity" value="Snuggle at home">    
+                    <br>
+                    <label for="q2a4">Playdate with her best friend Bengie</label>                          <input type="checkbox" id="q2a4" name="activity" value="Playdate with her best friend Bengie">    
+                    <br>
+                </form>
+            </section>
+        </main>
 </body>
 </html>
